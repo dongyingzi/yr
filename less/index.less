@@ -1,0 +1,443 @@
+
+.pzBannerPn{
+	
+	background: url(../images/topBanner1.jpg) top center no-repeat;
+	margin-bottom: 60px;
+	padding-top: 145px;
+	.pzBannerInner{
+		width:1000px;
+		margin:0 auto;
+		height: 550px;
+		position: relative;
+		z-index: 0;
+		.iconLeft,.iconRight{
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: -60px;
+			width: 60px;
+			height: 550px;
+			i{
+				display: inline-block;
+				position: absolute;
+				top:50%;
+				left: 0;
+				margin-top: -37px;
+				width:39px;
+				height: 75px;
+				background-image: url(../images/cirLeft.png);
+			}
+		}
+		.iconRight{
+			left: auto;
+			right: -60px;
+			i{
+				background-image: url(../images/cirRig.png);
+				left: auto;
+				right: 0;
+			}
+		}
+	}
+	.info{
+		position: absolute;
+		right: 0;
+		bottom:90px;
+		color: #fff;
+		font-size: 18px;
+		width:380px;
+		line-height: 40px;
+		.tit{
+			font-size: 50px;
+			margin-bottom: 50px;
+		}
+		.btn{
+			margin-top: 50px;
+			display:block;
+			width:290px;
+			height: 80px;
+			background:url(../images/downBtn.png);
+		}
+	}
+}
+.pzMobilePn{
+	width:1000px;
+	margin: 0 auto 60px;
+	.hd{
+		text-align: center;
+		margin-bottom: 65px;
+	}
+	.bd{
+		ul{
+			margin: 0 -25px;
+		}
+		li{
+			float: left;
+			width:25%;
+			*width:24.99%;
+			.inner{
+				text-align: center;
+				color: #999;
+				padding:0 25px;
+				/*position: relative;*/
+				img{
+					margin-bottom: 40px;
+				}
+				.tit{
+					font-size: 18px;
+					color: #333;
+					margin-bottom: 20px;
+				}
+				.tip{
+					display: none;
+				}
+				&:hover{
+					.tip{
+						display: block;
+						background: #f3f3f3;
+						border-radius: 5px;
+						position: absolute;
+						padding:30px 40px 10px 40px;
+						text-align: left;
+						.col{
+							margin-bottom: 20px;
+						}
+						.col2{
+							float: left;
+							width:50%;
+							margin-bottom: 20px;
+						}
+						.tipTit{
+							color: #555;
+							margin-bottom: 10px;
+						}
+						.info{
+							font-size: 12px;
+							line-height:28px;
+							color: #999;
+						}
+						.arrow{
+							position: absolute;
+							left: -20px;
+							top:60px;
+							width: 0;
+							height: 0;
+							font-size: 0;
+							line-height: 0;
+							border-width: 10px;
+							border-style: solid solid dashed dashed;
+							border-color: #f3f3f3 #f3f3f3 transparent transparent;
+						}
+					}
+					.right{
+						.arrow{
+							position: absolute;
+							left: auto;
+							right: -20px;
+							top:60px;
+							border-style: solid  dashed dashed solid;
+							border-color: #f3f3f3 transparent transparent #f3f3f3 ;
+						}
+						.info{
+							padding-right: 50px;
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+.pzNewSuccPn{
+	background-color: #f3f3f3;
+	padding-top:65px;
+	padding-bottom:65px;
+	.moreBtn{
+		width:65px;
+		height: 25px;
+		display: inline-block;
+		background: url(../images/moreGray.png);
+	}
+	.pzNewSuccInner{
+		width:1000px;
+		margin: 0 auto;
+		.col{
+			float: left;
+			width:480px;
+		}
+		.col2{
+			float: right;
+			width:495px;
+		}
+		.innerLeft{
+			padding-right: 115px;
+		}
+		h2{
+			color: #555555;
+			margin-bottom: 40px;
+		}
+		.list{
+			margin-bottom: 60px;
+			li{
+				border-left:4px solid #ddd;
+				font-size: 18px;
+				line-height: 36px;
+				padding: 10px 15px;
+				margin-bottom: 25px;
+				color: #999;
+			}
+		}
+		.picInner{
+			background: #fff;
+			padding:5px 0 0 5px;
+			li{
+				position: relative;
+				width:240px;
+				float: left;
+				background: #fff;
+				margin-right: 5px;
+				margin-bottom: 5px;
+				.tit{
+					background: #46a5d5;
+					width:240px;
+					height: 240px;
+					font-size: 30px;
+					color: #fff;
+					text-align: center;
+					line-height: 240px;
+				}
+				.cover{
+					display: none;
+				}
+				&:hover{
+					.cover{
+						display: block;
+						position: absolute;
+						top:0;
+						left: 0;
+						width:240px;
+						height: 240px;
+						background: rgba(255,255,255,.9);
+						filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#E5ffffff', endColorstr='#E5ffffff');
+						a{
+							color: #555555;
+							display: block;
+							line-height: 30px;
+							font-size: 18px;
+							width:200px;
+							height: 120px;
+							overflow: hidden;
+							margin: 50px auto 0;
+						}
+					}
+				};
+			}
+		}
+	}
+}
+
+.pzProfessorPn{
+	background-color: #46a5d5;
+	padding-top:65px;
+	padding-bottom:65px;
+	margin-bottom:65px;
+	.pzProFessorInner{
+		width: 1000px;
+		margin:0 auto;
+		color: #a3d2ea;
+		.hd{
+			margin-bottom: 78px;
+			ul{
+				text-align: center;
+				font-size: 0;
+			}
+			li{
+				display: inline-block;
+				width:260px;
+				font-size: 30px;
+				cursor: pointer;
+			}
+			li{
+				*display: inline;
+			}
+			.select{
+				color: #fff;
+			}
+		}
+		.bd{
+			.moreBtn{
+				margin-right: 30px;
+				margin-top: 50px;
+				display: inline-block;
+				width:65px;
+				height: 25px;
+				background: url(../images/moreTrp.png);
+			}
+			ul{
+				margin: 0 -25px;
+				li{
+					float: left;
+					width:25%;
+					*width:24.99%;
+					.cirImg{ border:3px solid #fff; border-radius: 50%; width:154px; height: 154px;}
+					.inner{
+						text-align: center;
+					}
+					.icnTag{
+						display: inline-block;
+						vertical-align: text-top;
+						width:149px;
+						height: 30px;
+						line-height: 30px;
+						text-align: center;
+						color: #fff;
+						font-size: 16px;
+						font-style: normal;
+						background: url(../images/tag.png);
+					}
+					.star{
+						font-size: 0;
+						margin-bottom: 16px;
+					}
+					.icnStar{
+						display: inline-block;
+						width:17px;
+						height: 16px;
+						margin-right: 6px;
+						vertical-align: text-top;
+						cursor: pointer;
+						background-image: url(../images/star.png);
+
+					}
+					.gray{
+						background-image: url(../images/star2.png);
+					}
+					.name{
+						font-size: 24px;
+						color: #fff;
+						margin-bottom: 20px;
+					}
+					.picCont{
+						width:160px;
+						height: 160px;
+						position: relative;
+						margin:0 auto 35px;
+						.icnTag{
+							position: absolute;
+							bottom: 0;
+							left: 5px;
+						}
+
+					}
+				}
+			}
+		}
+	}
+	
+}
+.pzDynamicNewsPn{
+	padding-bottom:65px;
+	.pzDynamicInner{
+		width:1000px;
+		margin:0 auto;
+		h2{
+			margin-bottom: 50px;
+			text-align: center;
+		}
+		.bd{
+			margin-right: -40px;
+		}
+		.commentPn{
+			float: left;
+			width:33.33%;
+			*width:33.22%;
+			margin-bottom: 40px;
+			.commentHd{
+				margin-right: 40px;
+				border-radius: 5px;
+				background-color: #f3f3f3;
+				padding:20px 15px;
+				margin-bottom: 30px;
+				position: relative;
+				a{
+					color: #3aaae3;
+				}
+				.cont{
+					line-height: 27px;
+					margin-bottom: 24px;
+				}
+				.info{
+					color: #999;
+					.icnTime{
+						display: inline-block;
+						width:16px;
+						height: 16px;
+						vertical-align: text-top;
+						margin-top: 3px;
+						margin-right: 10px;
+						background: url(../images/time.png);
+					}
+					.icnCommet{
+						display: inline-block;
+						width:17px;
+						height: 17px;
+						vertical-align: text-top;
+						margin-right: 10px;
+						margin-top: 3px;
+						background: url(../images/pl.png);
+					}
+				}
+				.icnCir{
+					display: inline-block;
+					position: absolute;
+					bottom: -16px;
+					left: 28px;
+					width:16px;
+					height: 16px;	
+					background: url(../images/comment.png);
+				}
+			}
+
+			.commentBd{
+				padding-left: 10px;
+				.name{
+					font-size: 20px;
+				}
+			}
+		}
+
+	}
+}
+
+.pzPartnerPn{
+	background-color: #f3f3f3;
+	padding-top:65px;
+	padding-bottom:65px;
+	.pzPartnerInner{
+		width:1000px;
+		margin: 0 auto;
+		h2{
+			margin-bottom: 50px;
+			text-align: center;
+		}
+		.bd{
+			li{
+				float: left;
+				width: 14.28%;
+				*width: 14.2%;
+				.inner{
+					width:100px;
+					height: 100px;
+					text-align: center;
+					display: table-cell;
+	 				vertical-align:middle;
+	 				*display: block;
+ 					*font-size: 87.3px;/*约为高度的0.873*/
+ 					*font-family:Arial;
+				}
+				img{
+					 vertical-align:middle;
+				}
+			}
+		}
+	}
+}
